@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+            .nav ul {
+            list-style-type: none;
+            background-color: yellow;
+            font-size: 1.3em;
+            padding: 0 500px;
+            overflow: hidden;
+        }
+        
+        .nav li {
+            float: center;
+        }
+        
+        .nav li a {
+            text-decoration: none;
+            padding: 10px 25px;
+            display: block;
+            color: black;
+            border-radius: 20px;
+        }
+        
+        .nav li a:hover {
+            background-color: orangered;
+            color: white;
+            border: none;
+            box-shadow: 5px 5px 10px #999;
+            transition: 0.3s;
+        }
+        
+        .nav li a.active {
+            background-color: blue;
+            color: white;
+    </style>
+</head>
+
+
+<body>
+    <div class="nav">
+        <ul>
+            <div class="container">
+                <div class="row row-sm-10" style="align-content: center;">
+                    <a href="admin.php"><button class="btn btn-success col-lg-3 col-md-4 col-sm-11 col-xs-11 button" style="margin-left: 15px;margin-bottom: 5px"><span class="glyphicon glyphicon-home"></span>&nbsp&nbspManager</button></a>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row row-sm-10" style="align-content: center;">
+                    <a href="deliveryBoy.php"><button class="btn btn-success col-lg-3 col-md-4 col-sm-11 col-xs-11 button" style="margin-left: 15px;margin-bottom: 5px"><span class="glyphicon glyphicon-home"></span>&nbsp&nbspDelivery Boy</button></a>
+                </div>
+            </div>
+        </ul>
+    </div>
+</body>
+
+</html>

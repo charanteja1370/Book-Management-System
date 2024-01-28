@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CONTACT US</title>
+  <link href="contact.css" rel = "stylesheet" type="text/css">
+  
+</head>
+<body>
+  <div class="container">
+  <form action="contact.php" method="post">
+
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Leave us a message:</p>
+  </div>
+
+  <div class = "row">
+     <div class = "column">
+      <img src="address.png" style="width:100%">
+    </div>
+    <div class = "column">
+       
+        <label for="fname">First Name</label>
+        <input type="text" id="firstName" name="firstName" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Your last name..">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your EMAIL..">
+
+        <label for="comments">Comments</label>
+        <textarea id="comments" name="comments" placeholder="Write something.." style="height:170px"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
